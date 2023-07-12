@@ -1,0 +1,103 @@
+a{
+  color: black !important;
+}
+.left{
+  padding-left: 30px !important;
+}
+.signUpPage{
+  width: 40%;
+  margin:20px auto;
+}
+.signUpPage h1{
+  text-align: center !important;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 50px;
+
+}
+.button{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.submitbtn{
+  width:30%;
+}
+.btn{
+  margin-left:80px;
+}
+.signUp div{
+  padding-left: 20px;
+}
+
+main{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+label{
+  color: black !important;
+}
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  margin-left: 250px; /* Adjust the margin to accommodate the width of the sidebar */
+  padding: 20px;
+}
+
+/* Styles for the sidebar */
+#slide-out {
+  width: 250px !important;
+}
+
+/* Additional styles for the sidebar items */
+#slide-out li {
+  padding: 10px !important;
+}
+
+#slide-out a {
+  color: white !important;
+}
+
+#slide-out a:hover {
+  color: gray !important;
+}
+.dashboardName{
+  padding-left: 30px;
+}
+.chart{
+  display: flex;
+}
+.barchart{
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* AdminDashboard.css */
+
+
+
+@media (max-width: 768px) {
+.signUpPage{
+  width:60%;
+}
+.left{
+  padding-left: 0px !important;
+}
+.submitbtn{
+  width:40%;
+}
+.chart {
+  flex-direction: column;
+}
+main{
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+/* .barchart,
+.piechart {
+  width: 100%;
+} */
+}
+
